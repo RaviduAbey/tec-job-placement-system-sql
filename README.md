@@ -32,3 +32,11 @@ The primary objective of this project is to create a robust job placement system
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/tec-job-placement-system-sql.git
+
+ERD and Normalization
+The project includes ERD diagrams created before and after the normalization process, showcasing the relationships between entities such as candidates, job history, qualifications, and job openings.
+
+Advanced SQL Queries:
+Categorizing Qualifications: Classifies qualifications based on expertise levels using conditional logic.
+Consolidated List of Companies and Candidates: Combines the names of all registered entities using a UNION query.
+Qualification Distribution Analysis: Uses LEFT JOINs to count and display the number of candidates for each qualification.
